@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: url("/black.jpeg");
+            color: #fff;
+            line-height: 1.8;
+        }
+
+        #container {
+            margin: 30px auto;
+            max-width: 350px;
+            padding: 20px;
+        }
+
+        .form_wrap {
+            background: #fff;
+            padding: 15px 25px;
+            color: #333;
+            height: 230px;
+          
+        }
+
+        .form_wrap .form_group {
+            display: block;
+            color: #666;
+          
+        }
+
+        .form_wrap .form_group input {
+            width: 100%;
+            padding: 10px;
+            border: #ddd 1px solid;
+            border-radius: 5px;
+            height: 50px;
+            
+        }
+        .form_wrap button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background: red;
+            color: #fff;
+        }
+
+ 
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form_wrap">
+                <div class="form_group">
+                    <label for="first_name"></label>
+                    <input type="text" name="first_name" id="first_name" placeholder="first_name">
+                </div>
+                <div class="form_group">
+                    <label for="last_name"></label>
+                    <input type="text" name="last_name" id="last_name" placeholder="last_name">
+                </div>
+                <div class="form_group">
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" placeholder="email">
+                </div>
+                <button type="submit" class="btn">Sign Our Petition</button>
+    </div>
+</body>
+</html>

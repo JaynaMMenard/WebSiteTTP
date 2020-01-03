@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7rem;
+    background: url('../images/flint.jpg') center center/cover;
+    background-position-y: 50px;
+  
+}
+
+
+
+a{
+   color: #333;
+   text-decoration: none;
+   
+}
+
+
+.l-heading {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  
+  /* Padding */
+  .py-1{ padding: 10px 0; }
+  .py-2{ padding: 20px 0; }
+  .py-3{ padding: 30px 0; }
+  
+
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+
+
+/* Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    background: #357388;
+    color: #ffffff;
+    overflow: auto;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  #navbar a {
+    color: #fff;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a.current{
+    background: #7FB4BE;
+    color: #fff;
+  }
+
+/*#navbar{
+    background: #474b52;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h1{
+   float: left;
+   margin: 50px 950px;
+   font-size: 100px;
+
+}*/
+
+p{ 
+  padding-top: 200px;
+  padding-left: 550px;
+  font-size: 100px;
+  color: #fff;
+  opacity: 0.5;
+  
+
+}
+
+#fade-in{
+animation: fadeIn 8s;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.5;
+    }
+}
+
+
+
+
+#button {
+	box-shadow: 0px 4px 14px 6px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 46px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #3d768a;
+    opacity: 0.8;
+    margin: 0px 700px;
+    margin-top: 350px;
+}
+#button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+#button:active {
+	position:relative;
+	top:1px;
+}
+
+ .button2{
+    
+    margin: 0px 700px;
+    margin-top: -400px; 
+}
+
+
+
+
+
+
+
