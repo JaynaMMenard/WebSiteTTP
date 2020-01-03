@@ -33,7 +33,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #7FB4BE;
 }
 
 .lead{
@@ -91,7 +91,7 @@ p {
 #navbar {
   position: fixed;
   top: 0;
-  background: #333;
+  background: #357388;
   color: #ffffff;
   overflow: auto;
   z-index: 1;
@@ -125,8 +125,8 @@ p {
 
 #navbar ul li a:hover,
 #navbar ul li a.current{
-  background: #444;
-  color: #f7c08a;
+  background: #7FB4BE;
+  color: #fff;
 }
 
 /* About Info */
@@ -139,7 +139,7 @@ p {
 /* Footer */
 #main-footer {
   text-align: center;
-  background: #444;
+  background: #7FB4BE;
   color: #fff;
   padding: 20px;
 }
